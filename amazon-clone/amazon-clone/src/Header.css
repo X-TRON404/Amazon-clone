@@ -1,0 +1,78 @@
+.header{
+  background-color: #131921; 
+  display: flex;
+  align-items: center;
+}
+
+.header_logo{
+    width : 100px;
+    object-fit: contain;
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header_search{
+    display: flex;
+    flex: 1; /*to take as much space as possible for the search input*/
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    z-index: 100;
+
+}
+
+
+
+.header_searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+
+
+}
+.header_searchIcon{
+    height: 22px !important; /*to ignore effects from material ui and add our own effects*/
+    padding: 5px;
+    background-color: #cd9042;
+}
+
+.header_link{
+    color: white;
+    text-decoration: none;/*because its a hyperlink it is going to have an underline to remove that we use this*/
+    
+}
+
+.header_option{
+    display: flex;
+    flex-direction: column; /*to display as column*/
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.header_optionLineOne{
+    font-size: 10px;
+    
+    
+}
+
+.header_optionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+    
+}
+.header_optionBasket{
+    display:flex;
+    align-items: center;
+
+}
+.header_basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
